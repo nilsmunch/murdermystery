@@ -1,0 +1,275 @@
+/* CSS for Zebra Puzzle rendered in a desktop environment */
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  font-family: Georgia, serif !important;
+  background: #494949 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+div.wrap {
+  margin-left:auto !important;
+  margin-right:auto !important;
+  width: 800px !important;
+}
+
+div.nav {
+  height: 100% !important;
+  background: gray !important;
+  padding: 10px !important;
+}
+
+div.nav ul {
+  list-style: none !important;
+}
+
+div.nav ul li {
+  display: inline !important;
+  padding: 5px 5px !important;
+}
+
+div.nav a:link {
+  color: black !important;
+}
+
+div.nav a:visited {
+  color: black !important;
+}
+
+div.nav a:hover {
+  color: #aaaaaa !important;
+}
+
+div.puzzle {
+  background: #a56b3c !important;
+  padding: 10px 62.5px 10px 62.5px !important;
+}
+
+div.puzzle ul {
+  list-style: none !important;
+}
+
+div.puzzle ul li {
+  display: table-row !important;
+}
+
+div.clues {
+  background: white !important;
+}
+
+div.clues ol {
+  list-style-type: decimal !important;
+  display: table-row !important;
+}
+
+div.clues ol li {
+  margin: 20px 50px 20px 50px !important;
+}
+
+.translucent {
+  opacity:0.4 !important;
+}
+
+.guess {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.incorrect {
+  visibility: hidden !important;
+}
+
+.row {
+  height: 110px !important;
+  display: table-row !important;
+}
+
+.tile {
+  height: 60px !important;
+  width: 90px !important;
+  border-radius: 5px !important;
+  background: white !important;
+  display: block !important;
+  float: left !important;
+  overflow: hidden !important;
+  margin: 5px !important;
+  padding: 20px 5px 20px 5px !important;
+}
+
+.food-row a {
+  background: url(/images/food-row/sprite.png) no-repeat !important;
+  display: block !important;
+  float:left !important;
+}
+
+.food-row a.apple {
+  background-position: 0px 0px !important;
+}
+
+.food-row a.orange {
+  background-position: -30px 0px !important;
+}
+
+.food-row a.watermelon {
+  background-position: -60px 0px !important;
+}
+
+.food-row a.strawberry {
+  background-position: -90px 0px !important;
+}
+
+.food-row a.eggplant {
+  background-position: -120px 0px !important;
+}
+
+.food-row a.tomato {
+  background-position: -150px 0px !important;
+}
+
+.animal-row a {
+  background: url(/images/animal-row/sprite.png) no-repeat !important;
+  display: block !important;
+  float:left !important;
+}
+
+.animal-row a.dog {
+  background-position: 0px 0px !important;
+}
+
+.animal-row a.cat {
+  background-position: -30px 0px !important;
+}
+
+.animal-row a.pig {
+  background-position: -60px 0px !important;
+}
+
+.animal-row a.frog {
+  background-position: -90px 0px !important;
+}
+
+.animal-row a.koala {
+  background-position: -120px 0px !important;
+}
+
+.animal-row a.bunny {
+  background-position: -150px 0px !important;
+}
+
+.heart-row a {
+  background: url(/images/heart-row/sprite.png) no-repeat !important;
+  display: block !important;
+  float:left !important;
+}
+
+.heart-row a.yellow-heart {
+  background-position: 0px 0px !important;
+}
+
+.heart-row a.blue-heart {
+  background-position: -30px 0px !important;
+}
+
+.heart-row a.purple-heart {
+  background-position: -60px 0px !important;
+}
+
+.heart-row a.pink-heart {
+  background-position: -90px 0px !important;
+}
+
+.heart-row a.green-heart {
+  background-position: -120px 0px !important;
+}
+
+.heart-row a.red-heart {
+  background-position: -150px 0px !important;
+}
+
+.sport-row a {
+  background: url(/images/sport-row/sprite.png) no-repeat !important;
+  display: block !important;
+  float:left !important;
+}
+
+.sport-row a.football {
+  background-position: 0px 0px !important;
+}
+
+.sport-row a.basketball {
+  background-position: -30px 0px !important;
+}
+
+.sport-row a.soccer-ball {
+  background-position: -60px 0px !important;
+}
+
+.sport-row a.baseball {
+  background-position: -90px 0px !important;
+}
+
+.sport-row a.tennis-ball {
+  background-position: -120px 0px !important;
+}
+
+.sport-row a.eight-ball {
+  background-position: -150px 0px !important;
+}
+
+.transport-row a {
+  background: url(/images/transport-row/sprite.png) no-repeat !important;
+  display: block !important;
+  float:left !important;
+}
+
+.transport-row a.rocketship {
+  background-position: 0px 0px !important;
+}
+
+.transport-row a.sailboat {
+  background-position: -30px 0px !important;
+}
+
+.transport-row a.bicycle {
+  background-position: -60px 0px !important;
+}
+
+.transport-row a.airplane {
+  background-position: -90px 0px !important;
+}
+
+.transport-row a.car {
+  background-position: -120px 0px !important;
+}
+
+.transport-row a.bus {
+  background-position: -150px 0px !important;
+}
+
+.hide-button {
+  height: 20px !important;
+  width: 48px !important;
+  padding: 5px !important;
+  border-radius: 3px !important;
+  position: absolute !important;
+  margin: -20px 680px !important;
+}
+
+.off {
+  background: gray !important;
+}
+
+.on {
+  background: green !important;
+}
+
+.hidden {
+  opacity:0.4 !important;
+}

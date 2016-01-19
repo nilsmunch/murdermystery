@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Zebra Puzzle
+		</title>
+		<meta name="author" content="Nate Gay">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/desktop.css" />
+		<script src="https://www.google.com/jsapi?key=ABQIAAAAFdti1WSalXCBvBGWG_B8yBTHTX3ap-9ER6gjhJqCFb29dttlmhQE4ZNjx_pdDznoaKE1sWujUJczZw"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/puzzle-object.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/user-input-handler.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clues/directional-clues.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clues/vertical-clues.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clues/near-clues.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clues/between-clues.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clue-engine.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/resource-manager.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="nav">
+				<ul>
+					<li><a href="http://www.ohnate.com/zebra-puzzle"><strong>ZEBRA PUZZLE</strong></a></li>
+				</ul>
+			</div>
+			<script language="JavaScript">
+				var puzzle = Object(),
+						hideButton = false;
+				setupPuzzle();
+				renderPuzzle(puzzle);
+			</script>
+		</div>
+	</body>
+</html>
